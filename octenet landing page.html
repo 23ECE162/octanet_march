@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/landing%20page.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport">
+        <title>octenet landing page</title>
+        
+        <style>
+            *{
+                margin:0px;
+                padding:3px;
+                box-sizing:border-box;
+            }
+            #logo{
+                width:100%;
+                min-height:60px;
+                background-color:rgba(79, 79, 79, 0.729);
+                margin-bottom:4px;
+                line-height:60px;
+                text-align:center;
+                color: rgb(249, 238, 248);
+                font-family:'Lucida Sans';
+                font-size:50px;
+                text-shadow: #3f3f3f;
+            }
+            #header{
+                width:100%;
+                min-height:65px;
+                background-color: rgb(115, 110, 103);
+            }
+            #body{
+                width:100%;
+                min-height:400px;
+                background-color: rgb(233, 233, 233);
+            }
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            .topnav a.active {
+                background-color: #000000;
+                color: rgb(255, 255, 255);
+            }
+            .topnav a:hover {
+                background-color: #a7a7a7b8;
+                color: rgba(0, 0, 0, 0.963);
+            }
+            #footer{
+                width:100%;
+                min-height:90px;
+                background-color:rgb(95, 92, 92);
+                color:#f2f2f2;
+                font-size:30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="logo">
+            <img src="./octenet landing page_files/cropped-cropped-site.png" align="left">
+            OCTANET
+            <h3 style="font-size:30px;">you dream your destiny</h3>
+        </div>
+        <div id="header">
+            <div class="topnav">
+                <a class="active" href="http://127.0.0.1:5500/HBJ">ABOUT THE INTERNSHIP</a>
+                <a href="http://127.0.0.1:5500/MKK">COMPLETION CERTIFICATE</a>
+                <a href="http://127.0.0.1:5500/NJ">RECOMENDATION LETTER</a>
+                <a href="http://127.0.0.1:5500/JKK">PLACEMENT SUPPORT</a>
+            </div>
+        </div>
+        <div id="body">
+            <img src="./octenet landing page_files/103-1034574_internship-opportunity-at-thinking-legal-new-delhi-internship.png" align="right">
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; padding:2px;text-align:left; font-size:30px;">
+                 octanet internship is a no cost program.<br>
+                 our aim is to provide everone with an oppurtunity to gain valuable knowledge and experience<br></p>
+                 <h1 style="color:red">What are the benefits of our internship?</h1><h1>
+                 <ul type="pipe" id="lists">
+                    <li>certificate of completion</li>
+                    <li>gain practical knowledge</li>
+                    <li>NO financial burden</li>
+                    <li>Enhances web development skills</li>
+                 </ul>
+            <p></p>
+        </h1></div>
+        <center>
+            <div id="footer">octanet services pvt ltd</div>
+        </center>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
